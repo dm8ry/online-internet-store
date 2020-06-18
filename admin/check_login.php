@@ -16,13 +16,13 @@ else
 	$username = $_POST['form-username'];
 	$password = $_POST['form-password'];
 		
-	if ((strcmp($username, 'Alex.Bimbat')==0) && (strcmp($password, 'Legend20!6')==0))
+	if ((strcmp($username, 'Alex')==0) && (strcmp($password, 'gend20!6')==0))
 	{
 		$error = "Success";
 		$_SESSION['auth_login']='Ok';
 	}
 	else
-	if ((strcmp($username, 'Dmitry.Romanoff')==0) && (strcmp($password, 'Legend20!6')==0))
+	if ((strcmp($username, 'Dmitry')==0) && (strcmp($password, 'gend20!6')==0))
 	{
 		$error = "Success";
 		$_SESSION['auth_login']='Ok';
